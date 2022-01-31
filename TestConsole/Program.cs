@@ -10,7 +10,7 @@ namespace TestConsole {
 
             var http = new HttpMethod();
             http.AddHeader("x-prs-api-key", "ABCXYZ");
-            http.Get("http://doudsystems.net/api/users");
+            await http.Get("http://doudsystems.com/prs5db/api/users");
         }
     }
 }

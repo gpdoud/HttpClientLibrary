@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TestConsole {
+namespace Http.Lib {
 
     public class User {
         public int Id { get; set; }
